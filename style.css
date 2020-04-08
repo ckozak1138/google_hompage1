@@ -1,0 +1,214 @@
+body {
+    height: 981px;
+    margin: 0;
+    padding: 0;
+  }
+ #navbarleft {
+    display: flex;
+    position: relative;
+    bottom: 135px;
+    left: 5px;
+    text-align: center; 
+    padding: 5px;
+    width: 140px;
+  }
+  
+  .navleft {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+    margin: 0 10px;
+  }
+  
+  .navleft:hover {
+    text-decoration: underline;
+  }
+  
+  #navbarright {
+    display: flex;
+    position: float;
+    float: right;
+    position: relative;
+    bottom: 157px;
+    margin: 0 2px;
+    text-align: center;
+    width: 300px;
+    justify-content: space-evenly;
+  }
+  
+  .navright {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+    margin: 0 10px;
+  }
+  
+  .navright:hover {
+    text-decoration: underline;
+  }
+  
+  #apps {
+    display: block;
+    width: 18px;
+    height: auto;
+    opacity: .7;
+    padding: 1px 0px;
+  }
+  
+  #apps:hover {
+    opacity: .9;
+  }
+  
+  #sign-in {
+    display: block;
+    color: white;
+    background: #2d6efa;
+    height: 30px;
+    width: 100%;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    border-radius: 7%;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: -14px;
+    position: relative;
+    bottom: 8px;
+    transform: scale(.9);
+  }
+  
+  #sign-in:hover {
+    box-shadow: 0 0 3px grey;
+    text-decoration: none;
+  }
+  
+  
+  #center {
+    text-align: center;
+  }
+  
+  #logo {
+    position: relative;
+    top: 280px;
+    display: block;
+    margin: auto;
+    padding-top: 109x;
+  }
+  
+  #search-bar {
+   
+    position: relative;
+    top: 280px;
+    width: 582px;
+    height: 44px;
+    margin: 0 auto;
+    border: solid;
+    border-radius: 30px;
+    border-color: rgba(0, 0, 0, .2);
+    border-width: 1px;
+    z-index: 2;
+  }
+  
+  #search-bar:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  }
+  
+  #search-content {
+    position: relative;
+    top: 1px;
+    width: 487px;
+    height: 41px;
+    text-align: left;
+    vertical-align: middle;
+   border: none;
+    z-index: 1;
+  }
+  
+  #search-content:focus {
+    outline: none;
+  }
+  #buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 252px;
+    padding: 4px 0;
+  }
+  
+  #srch {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+    display: block;
+    text-align: center;
+    margin: 0 7px;
+    padding: 0 12px;
+    height: 40px;
+    width: 122px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, .06);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #lucky {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+    display: block;
+    text-align: center;
+    margin: 0 7px;
+    padding: 0 12px;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, .06);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #srch:hover, #lucky:hover {
+    border: solid;
+    border-color: rgba(0, 0, 0, .2);
+    border-width: .8px;
+    color: black;
+    box-sizing: border-box;
+    line-height: 38.4px;
+    text-align: center;
+  }
+  
+  
+  #navbottom {
+    background: rgba(0, 0, 0, .06);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+  }
+  
+  .footcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  #footright {
+     margin-right: 27px;
+    width: 190px;
+  }
+  
+  #footleft {
+     margin-left: 27px;
+     width: 300px;
+  }
+  
+  .foot {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .55);
+  }
+  
+  .foot:hover {
+    text-decoration: underline;
+  }
